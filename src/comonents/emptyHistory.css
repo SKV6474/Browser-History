@@ -1,0 +1,21 @@
+.emptyhistory {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  color: #64748b;
+  text-align: center;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 780px) {
+  .content {
+    font-size: 28px;
+  }
+}
